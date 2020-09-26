@@ -80,6 +80,12 @@ h4 {
 
 }
 
+.flex-change {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -89,8 +95,17 @@ h4 {
 .title {
   font-family: Oswald;
   font-size: 25px;
+
+}
+
+.title-side {
   padding: 25px 0;
 }
+
+.title-side p {
+  margin-bottom: 30px;
+}
+
 
 #title-color {
   color: #A59678;
@@ -104,7 +119,6 @@ h4 {
   text-transform: uppercase;
   font-family: Oswald;
   font-size: 24px;
-  margin: 30px;
   padding: 5px 20px;
 }
 
@@ -148,6 +162,8 @@ footer {
   color: #6F737F;
   padding: 50px 0;
   text-align: center;
+  font-family: Montserrat;
+
 }
 
 footer h2 {
@@ -163,4 +179,59 @@ footer li {
 footer a {
   text-decoration: none;
   color: #6F737F;
+
+}
+
+@media (min-width: 700px) {
+
+  .three-article-boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .article-box {
+    font-size: 12px;
+  }
+
+}
+
+@media (min-width: 1000px) {
+
+  .navigation {
+    height: 50px;
+    justify-content: flex-end;
+  }
+
+  .hro {
+    height: 400px;
+  }
+
+  #logo {
+    margin-right: auto;
+  }
+
+  .flex-change {
+    flex-direction: row;
+  }
+
+  .title-side {
+    width: 70%;
+    font-size: 14px;
+    padding: 120px 80px;
+    text-align: left;
+    align-self: end;
+  }
+
+  .title {
+    width: 30%;
+    padding: 100px 0;
+    text-align: left;
+  }
+
+  .highlights {
+    display: flex;
+    justify-content: row;
+  }
+
 }
