@@ -136,7 +136,6 @@ h4 {
 .article {
   margin-top: 50px;
   font-size: 17px;
-  text-align: ;
 }
 
 .article p {
@@ -229,9 +228,49 @@ footer a {
     text-align: left;
   }
 
-  .highlights {
+  .article-flex {
     display: flex;
-    justify-content: row;
+    flex-direction: row;
+    gap: 80px;
+  }
+
+  .article-text {
+    width: 70%;
+  }
+
+  .three-article-boxes {
+    flex-direction: column;
+    width: 30%;
+
+  }
+
+  .article-box {
+    margin-top: 0px;
+  }
+
+  .footer-menus {
+    display: flex;
+    flex-direction: row;
+  }
+
+  footer {
+    margin-top: 30px;
+    padding: 50px 0;
+    text-align: left;
+  }
+
+  #footer-title {
+    text-align: center;
+  }
+
+  #footer-text {
+    flex-basis: 40%;
+    padding-left: 0;
+
+  }
+
+  .footer-box {
+    padding-left: 100px;
   }
 
 }
