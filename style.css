@@ -36,6 +36,7 @@ h4 {
 
 .container {
   width: 85%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -251,6 +252,8 @@ footer a {
   .footer-menus {
     display: flex;
     flex-direction: row;
+    text-align: center;
+    justify-content: center;
   }
 
   footer {
@@ -261,6 +264,7 @@ footer a {
 
   #footer-title {
     text-align: center;
+    font-size: 34px;
   }
 
   #footer-text {
